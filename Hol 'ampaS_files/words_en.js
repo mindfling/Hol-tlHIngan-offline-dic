@@ -25524,4 +25524,19 @@ var wordList = [
       word: "yuwey",
       name: "yuwey (n.) continent"
    }, 
+   {
+      id: 5555,
+      word: "QelIS",
+      name: "QelIS (name) - Alice",
+   }, 
+   {
+      id: 5556,
+      word: "CheS chIS",
+      name: "CheS chIS (animal) - White Rabbit in Wonderland",
+   },
+   {
+      id: 5557,
+      word: "cheS maw'",
+      name: "CheS maw' (animal) - mad March Hare in Wonderland",
+   },
 ];
