@@ -922,7 +922,7 @@ var wordList = [
    {
       id: 184,
       word: "'e'levan",
-      name: "'e'levan (n.) elephant"
+      name: "'e'levan (n.) terran animal elephant"
    }, 
    {
       id: 185,
@@ -1342,7 +1342,7 @@ var wordList = [
    {
       id: 268,
       word: "'evta'",
-      name: "'evta' (n.) evta, newt, salamander, type of animal"
+      name: "'evta' (n.) evta, newt, salamander, type of animal - тритон, саламандра"
    }, 
    {
       id: 269,
@@ -3227,7 +3227,7 @@ var wordList = [
    {
       id: 645,
       word: "DuHSum",
-      name: "DuHSum (n.) lobster-like creature"
+      name: "DuHSum (n.) lobster-like creature Лобстер"
    }, 
    {
       id: 646,
@@ -8697,7 +8697,7 @@ var wordList = [
    {
       id: 1739,
       word: "cha'Do'",
-      name: "cha'Do' (n.) a species of Klingon bird about which little is known"
+      name: "cha'Do' (n.) a species of Klingon bird Dodo about which little is known - похож на Додо птица"
    }, 
    {
       id: 1740,
@@ -11787,7 +11787,7 @@ var wordList = [
    {
       id: 2357,
       word: "lIS'ab",
-      name: "lIS'ab (n.) rodent"
+      name: "lIS'ab (n.) rodent - какой-то грызун"
    }, 
    {
       id: 2358,
@@ -15292,7 +15292,7 @@ var wordList = [
    {
       id: 3058,
       word: "neSngech",
-      name: "neSngech (n.) dormouse-like animal"
+      name: "neSngech (n.) dormouse-like animal - соня, нето мышь, нето белка"
    }, 
    {
       id: 3059,
@@ -20277,7 +20277,7 @@ var wordList = [
    {
       id: 4055,
       word: "ro'Sa'",
-      name: "ro'Sa' (n.) rose (a Terran flower)"
+      name: "ro'Sa' (n.) rose a Terran flower - роза цветок"
    }, 
    {
       id: 4056,
@@ -23007,7 +23007,7 @@ var wordList = [
    {
       id: 4601,
       word: "vIghro'",
-      name: "vIghro' (n.) v'gro', cat, type of animal"
+      name: "vIghro' (n.) v'gro', cat, type of animal - Кот, Кошка"
    }, 
    {
       id: 4602,
@@ -25027,7 +25027,7 @@ var wordList = [
    {
       id: 5005,
       word: "yatqap",
-      name: "yatqap (n.) a gray (sometimes white) bird that can travel particularly long distances without pausing"
+      name: "yatqap (n.) a gray (sometimes white) bird that can travel particularly long distances without pausing - Серый голубь"
    }, 
    {
       id: 5006,
@@ -25531,12 +25531,37 @@ var wordList = [
    }, 
    {
       id: 5556,
+      word: "QelIs boqHarmey",
+      name: "QelIs boqHarmey - Alice\'s Adventures in Wonderland (book by Lewis Carroll)",
+   },
+   {
+      id: 5557,
       word: "CheS chIS",
       name: "CheS chIS (animal) - White Rabbit in Wonderland",
    },
    {
-      id: 5557,
+      id: 5558,
       word: "cheS maw'",
-      name: "CheS maw' (animal) - mad March Hare in Wonderland",
+      name: "CheS maw' (animal) - Mad March Hare in Wonderland",
+   },
+   {
+      id: 5559,
+      word: "ta'",
+      name: "ta' - император",
+   },
+   {
+      id: 5560,
+      word: "ta'be'",
+      name: "ta'be' - Queen, Императрица",
+   },
+   {
+      id: 5561,
+      word: "ta'loD",
+      name: "ta'loD - King, император он",
+   },
+   {
+      id: 5562,
+      word: "qumwI'",
+      name: "qumwI' (n.) governor, Duchess in Alice in Wonderland, Герцогиня"
    },
 ];
