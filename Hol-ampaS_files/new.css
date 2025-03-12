@@ -1,7 +1,17 @@
-@import url(fonts/pIqaD.css);
+/* @import url(fonts/pIqaD.css); */
 
 body {
-/*  padding-top: 50px; */
+  padding-top: 50px;
+}
+
+.page {
+  background: #434343;
+  font-family: serif;
+  font-size: 12px;
+  color: lawngreen;
+}
+.well {
+  background: #000;
 }
 
 .starter-template {
@@ -9,116 +19,141 @@ body {
   text-align: center;
 }
 
-.KApIqaD 
-{
-        font-family: "KApIqaD", pIqaD, Code2000, "clearlyu pua", Helvetica !important;
-        text-rendering: optimizeLegibility;
-	font-feature-settings: "kern" 1;
-  	-webkit-font-feature-settings: "kern";
-  	-moz-font-feature-settings: "kern";
-  	-moz-font-feature-settings: "kern=1";
+.KApIqaD {
+  font-family: "KApIqaD", pIqaD, Code2000, "clearlyu pua", Helvetica !important;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1;
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern=1";
 }
 
 
-.pIqaD
-{
-        font-family: "pIqaD", pIqaD, Code2000, "clearlyu pua", Helvetica !important;
-        text-rendering: optimizeLegibility;
-	font-feature-settings: "kern" 1;
-  	-webkit-font-feature-settings: "kern";
-  	-moz-font-feature-settings: "kern";
-  	-moz-font-feature-settings: "kern=1";
+.pIqaD {
+  /* font-family: "pIqaD", pIqaD, Code2000, "clearlyu pua", Helvetica !important; */
+  font-family: monospace;
+  font-size: 12px;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1;
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern=1";
+  background: #000;
+  color: wheat;
 }
 
-.pIqaD h1, h2, h3, h4, h5, h6 {
-        font-family: "pIqaD", pIqaD, Code2000, "clearlyu pua", Helvetica !important;
-        text-rendering: optimizeLegibility;
-	font-feature-settings: "kern" 1;
-  	-webkit-font-feature-settings: "kern";
-  	-moz-font-feature-settings: "kern";
-  	-moz-font-feature-settings: "kern=1";
+.pIqaD h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "pIqaD", pIqaD, Code2000, "clearlyu pua", Helvetica !important;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1;
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern=1";
 }
 
 
 .pIqaDKA {
-        font-family: "pIqaD", pIqaD, Code2000, "clearlyu pua", Helvetica !important;
-        text-rendering: optimizeLegibility;
-	font-feature-settings: "kern" 1;
-  	-webkit-font-feature-settings: "kern";
-  	-moz-font-feature-settings: "kern";
-  	-moz-font-feature-settings: "kern=1";
+  font-family: "pIqaD", pIqaD, Code2000, "clearlyu pua", Helvetica !important;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1;
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern=1";
 }
 
-.pIqaDKA h1, h2, h3, h4, h5, h6 {
-        font-family: "pIqaD", pIqaD, Code2000, "clearlyu pua", Helvetica !important;
-        text-rendering: optimizeLegibility;
-	font-feature-settings: "kern" 1;
-  	-webkit-font-feature-settings: "kern";
-  	-moz-font-feature-settings: "kern";
-  	-moz-font-feature-settings: "kern=1";
+.pIqaDKA h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "pIqaD", pIqaD, Code2000, "clearlyu pua", Helvetica !important;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1;
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern=1";
 }
 
-.HaSta
-{
-        font-family: "HaStaUC", "pIqaD", pIqaD, Code2000, "clearlyu pua", Helvetica !important;
-        text-rendering: optimizeLegibility;
-	font-feature-settings: "kern" 1;
-  	-webkit-font-feature-settings: "kern";
-  	-moz-font-feature-settings: "kern";
-  	-moz-font-feature-settings: "kern=1";
+.HaSta {
+  font-family: "HaStaUC", "pIqaD", pIqaD, Code2000, "clearlyu pua", Helvetica !important;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1;
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern=1";
 }
 
-.Bing
-{
-        font-family: "Bing", Helvetica !important;
-        text-rendering: optimizeLegibility;
-        font-feature-settings: "kern" 1;
-        -webkit-font-feature-settings: "kern";
-        -moz-font-feature-settings: "kern";
-        -moz-font-feature-settings: "kern=1";
-}
-
-
-.HaSta h1, h2, h3, h4, h5, h6 {
-        font-family: "HaStaUC", "pIqaD", pIqaD, Code2000, "clearlyu pua", Helvetica !important;
-        text-rendering: optimizeLegibility;
-	font-feature-settings: "kern" 1;
-  	-webkit-font-feature-settings: "kern";
-  	-moz-font-feature-settings: "kern";
-  	-moz-font-feature-settings: "kern=1";
-}
-
-.HaStaUC
-{
-        font-family: "HaStaUC", "pIqaDUC", Verdana, "Bitstream Vera Sans", "DejaVu Sans", "Liberation Sans", Geneva, sans-serif !important;
-        text-rendering: optimizeLegibility;
-	font-feature-settings: "kern" 1;
-  	-webkit-font-feature-settings: "kern";
-  	-moz-font-feature-settings: "kern";
-  	-moz-font-feature-settings: "kern=1";
-}
-
-.HaStaUC h1, h2, h3, h4, h5, h6 {
-        font-family: "HaStaUC", "pIqaDUC", Verdana, "Bitstream Vera Sans", "DejaVu Sans", "Liberation Sans", Geneva, sans-serif !important;
-        text-rendering: optimizeLegibility;
-	font-feature-settings: "kern" 1;
-  	-webkit-font-feature-settings: "kern";
-  	-moz-font-feature-settings: "kern";
-  	-moz-font-feature-settings: "kern=1";
+.Bing {
+  font-family: "Bing", Helvetica !important;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1;
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern=1";
 }
 
 
+.HaSta h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "HaStaUC", "pIqaD", pIqaD, Code2000, "clearlyu pua", Helvetica !important;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1;
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern=1";
+}
 
-.form-group { width: 100% }
+.HaStaUC {
+  font-family: "HaStaUC", "pIqaDUC", Verdana, "Bitstream Vera Sans", "DejaVu Sans", "Liberation Sans", Geneva, sans-serif !important;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1;
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern=1";
+}
 
-.input-group { width: 100% }
+.HaStaUC h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "HaStaUC", "pIqaDUC", Verdana, "Bitstream Vera Sans", "DejaVu Sans", "Liberation Sans", Geneva, sans-serif !important;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1;
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern=1";
+}
 
-.input-group-btn { width: 1% !important }
 
-.twitter-typeahead { 
-	width: 100%; 
-	vertical-align: middle !important;
-} 
+
+.form-group {
+  width: 100%
+}
+
+.input-group {
+  width: 100%
+}
+
+.input-group-btn {
+  width: 1% !important
+}
+
+.twitter-typeahead {
+  width: 100%;
+  vertical-align: middle !important;
+}
 
 .hol-top {
 
@@ -126,39 +161,46 @@ body {
 
 .hol-mid {
 
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
 }
 
-.list-group-item:nth-child(odd) { background: #FAFAFA
-; }
+.list-group-item:nth-child(odd) {
+  background: #FAFAFA;
+}
 
 .tt-query {
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 
 .tt-hint {
   width: 100%;
+  /* color: cyan; */
+}
+.tt-highlight {
+  color: #00aeff;
 }
 
-.tt-menu { 
+
+.tt-menu {
   width: 422px;
   margin-top: 4px;
   padding: 4px 0;
-  background-color: #fff;
+  /* background-color: #fff; */
+  background: black;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
-  -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
-     -moz-box-shadow: 0 5px 10px rgba(0,0,0,.2);
-          box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  /* -webkit-border-radius: 4px; */
+  /* -moz-border-radius: 4px; */
+  /* border-radius: 0px; */
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
 
-  max-height: 300px;
+  max-height: 500px;
   min-width: 100%;
   overflow-y: auto;
 }
@@ -166,12 +208,16 @@ body {
 .tt-suggestion {
   padding: 3px 20px;
   line-height: 24px;
+  color: lawngreen;
+  background: black;
 }
 
 .tt-suggestion.tt-cursor {
-  color: #fff;
-  background-color: #0097cf;
-
+  /* color: #fff; */
+  /* background-color: #0097cf; */
+  color: black;
+  background: lawngreen;
+  cursor: pointer;
 }
 
 .tt-suggestion p {
@@ -179,37 +225,49 @@ body {
 }
 
 .input-group .form-control {
-   width: 100% !important;
+  width: 100% !important;
 }
 
-.row:nth-child(odd){
+.row:nth-child(odd) {
+  border: 1px solid lawngreen;
 }
 
 .color-row:nth-child(odd) {
-   background-color:#DFDFDF;
+  background-color: #DFDFDF;
 }
 
 .popover {
-    max-width: 600px !important;
+  max-width: 600px !important;
 }
 
-.col{
-    margin-bottom: -99999px;
-    padding-bottom: 99999px;
-    background-color:#ffc;
+.col {
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+  background-color: #ffc;
 }
 
-.col-wrap{  
-    overflow: hidden;   
-}  
+.col-wrap {
+  overflow: hidden;
+}
 
 .scrollable-menu {
-    height: auto;
-    max-height: 400px;
-    overflow-x: hidden;
+  height: auto;
+  max-height: 400px;
+  overflow-x: hidden;
 }
 
 .btn {
-    white-space: normal;
+  white-space: normal;
 }
 
+
+::selection {
+  background: lawngreen;
+  color: #000;
+}
+
+.tt-menu {
+  border-radius: 20px;
+  scrollbar-width: thin;
+  scrollbar-color: #059b05 black;
+}

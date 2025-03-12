@@ -10,6 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
+
   <link rel="apple-touch-icon" sizes="180x180" href="https://hol.kag.org/apple-touch-icon.png?v=476G82owWq">
   <link rel="icon" type="image/png" sizes="32x32" href="https://hol.kag.org/favicon-32x32.png?v=476G82owWq">
   <link rel="icon" type="image/png" sizes="194x194" href="https://hol.kag.org/favicon-194x194.png?v=476G82owWq">
@@ -43,14 +44,14 @@
 
 </head>
 
-<body style="padding-top: 65px;">
+<body style="padding-top: 15px;" class="page">
 
   <div class="container">
     <div class="well">
       <div class="visible-sm-block visible-md-block visible-lg-block form-group">
         <div class="input-group">
 
-          <label for="input" class="sr-onlyaaaaaa">Search by either English/Klingon words</label>
+          <label for="input" class="sr-onlyaaaaaa input-title">Search by either English/Klingon words</label>
 
           <span class="twitter-typeahead" style="position: relative; display: inline-block;">
             <input autocomplete="on" autocapitalize="none" autofocus tabindex="1"
@@ -68,6 +69,7 @@
             <div role="listbox" class="tt-menu tt-empty" id="wordInput_listbox"
               style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none;" aria-expanded="false">
               <div role="presentation" class="tt-dataset tt-dataset-words">
+
               </div>
             </div>
 
@@ -76,14 +78,18 @@
       </div>
     </div>
 
+
+    
     <div class="well" id="mughom">
       <style>
         .well {
-          border: 1px solid wheat;
+          border: 1px solid #f5deb37d;
+          font-family: monospace;
         }
 
         .well__text {
-          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+          font-family: cursive;
           font-size: 11px;
           line-height: 1;
         }
@@ -92,6 +98,7 @@
         you can still do some basic word lookups.</p>
       <p class="well__text">I'm working on making it better, so it should have more features soon!</p>
     </div>
+
     <!-- Modal Setup -->
     <div class="modal fade" id="DevwI" tabindex="-1" role="dialog" aria-labelledby="DevwILabel">
       <div class="modal-dialog modal-lg" role="document">
@@ -152,7 +159,7 @@
   <div id="dhtmlwindowholder">
     <span style="display:none">.</span>
   </div>
-   -->
+    -->
 
   <!-- <script src="./Hol &#39;ampaS_files/picker.js"></script> -->
   <!-- <script src="./Hol &#39;ampaS_files/swfobject.js"></script> -->
@@ -193,11 +200,6 @@
     </div>
   </div>
 
-  <span style="all: initial;">
-    <template shadowrootmode="open">
-      <link rel="stylesheet" href="chrome-extension://fbncpmcdhgdolipfkpeckjajpgjdpehj/dist/styles.css">
-    </template>
-  </span>
 
 </body>
 

@@ -1,7 +1,8 @@
 /* line 7, ../sass/lightbox.sass */
 body:after {
   content: url(../img/close.png) url(../img/loading.gif) url(../img/prev.png) url(../img/next.png);
-  display: none;
+  /* display: none; */
+  display: block;
 }
 
 /* line 11, ../sass/lightbox.sass */
@@ -45,7 +46,7 @@ body:after {
 .lb-outerContainer {
   position: relative;
   background-color: white;
-  *zoom: 1;
+  zoom: 1;
   width: 250px;
   height: 250px;
   margin: 0 auto;
