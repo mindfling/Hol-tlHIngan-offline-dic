@@ -2086,13 +2086,13 @@ var wordList = [
    }, 
    {
       id: 417,
-      word: "DI",
-      name: "DI (vp) we-them"
+      word: "DI-",
+      name: "DI- (vp) we-them"
    }, 
    {
       id: 418,
-      word: "DI'",
-      name: "DI' (vs9) as soon as, when"
+      word: "-DI'",
+      name: "-DI' (vs9) as soon as, when"
    }, 
    {
       id: 419,
@@ -2321,8 +2321,8 @@ var wordList = [
    }, 
    {
       id: 464,
-      word: "Da",
-      name: "Da (vp) you-him/her/it/them"
+      word: "Da-",
+      name: "Da- (vp) you-him/her/it/them"
    }, 
    {
       id: 465,
@@ -2447,7 +2447,7 @@ var wordList = [
    {
       id: 489,
       word: "Daj",
-      name: "Daj (ns4) his/hers/its"
+      name: "-Daj (ns4) his/hers/its"
    }, 
    {
       id: 490,
@@ -3161,8 +3161,8 @@ var wordList = [
    }, 
    {
       id: 632,
-      word: "Du",
-      name: "Du (vp) he/she/it-you"
+      word: "Du-",
+      name: "Du- (vp) he/she/it-you"
    }, 
    {
       id: 633,
@@ -3171,8 +3171,8 @@ var wordList = [
    }, 
    {
       id: 634,
-      word: "Du'",
-      name: "Du' (ns2) plural (body part)"
+      word: "-Du'",
+      name: "-Du' (ns2) plural (body part)"
    }, 
    {
       id: 635,
@@ -6071,8 +6071,8 @@ var wordList = [
    }, 
    {
       id: 1214,
-      word: "Sa",
-      name: "Sa (vp) I-you (pl)"
+      word: "Sa-",
+      name: "Sa- (vp) I-you (pl)"
    }, 
    {
       id: 1215,
@@ -6901,8 +6901,8 @@ var wordList = [
    }, 
    {
       id: 1380,
-      word: "Su",
-      name: "Su (vp) you (pl)-"
+      word: "Su-",
+      name: "Su- (vp) you (pl)-"
    }, 
    {
       id: 1381,
@@ -7261,8 +7261,8 @@ var wordList = [
    }, 
    {
       id: 1452,
-      word: "bI",
-      name: "bI (vp) you-"
+      word: "bI-",
+      name: "bI- (vp) you-"
    }, 
    {
       id: 1453,
@@ -7827,7 +7827,7 @@ var wordList = [
    {
       id: 1565,
       word: "be'",
-      name: "be' (vsr) not"
+      name: "-be' (vsr) not"
    }, 
    {
       id: 1566,
@@ -8116,8 +8116,8 @@ var wordList = [
    }, 
    {
       id: 1623,
-      word: "bo",
-      name: "bo (vp) you (pl)-him/her/it/them"
+      word: "bo-",
+      name: "bo- (vp) you (pl)-him/her/it/them"
    }, 
    {
       id: 1624,
@@ -8961,8 +8961,8 @@ var wordList = [
    }, 
    {
       id: 1792,
-      word: "che",
-      name: "che (vp) you (pl)-us"
+      word: "che-",
+      name: "che- (vp) you (pl)-us"
    }, 
    {
       id: 1793,
@@ -9136,8 +9136,8 @@ var wordList = [
    }, 
    {
       id: 1827,
-      word: "cho",
-      name: "cho (vp) you-me"
+      word: "cho-",
+      name: "cho- (vp) you-me"
    }, 
    {
       id: 1828,
@@ -10711,8 +10711,8 @@ var wordList = [
    }, 
    {
       id: 2142,
-      word: "jI",
-      name: "jI (vp) I-"
+      word: "jI-",
+      name: "jI- (vp) I-"
    }, 
    {
       id: 2143,
@@ -11626,8 +11626,8 @@ var wordList = [
    }, 
    {
       id: 2325,
-      word: "ju",
-      name: "ju (vp) you-us"
+      word: "ju-",
+      name: "ju- (vp) you-us"
    }, 
    {
       id: 2326,
@@ -11716,8 +11716,8 @@ var wordList = [
    }, 
    {
       id: 2343,
-      word: "lI",
-      name: "lI (vp) he/she/it/they-you (pl)"
+      word: "lI-",
+      name: "lI- (vp) he/she/it/they-you (pl)"
    }, 
    {
       id: 2344,
@@ -11727,7 +11727,7 @@ var wordList = [
    {
       id: 2345,
       word: "lI'",
-      name: "lI' (vs7) in progress (aspect marker)"
+      name: "-lI' (vs7) in progress (aspect marker)"
    }, 
    {
       id: 2346,
@@ -12751,13 +12751,13 @@ var wordList = [
    }, 
    {
       id: 2550,
-      word: "lu",
-      name: "lu (vp) they-him/her/it"
+      word: "lu-",
+      name: "lu- (vp) they-him/her/it"
    }, 
    {
       id: 2551,
-      word: "lu'",
-      name: "lu' (vs5) indefinite subject"
+      word: "-lu'",
+      name: "-lu' (vs5) indefinite subject"
    }, 
    {
       id: 2552,
@@ -13251,8 +13251,8 @@ var wordList = [
    }, 
    {
       id: 2650,
-      word: "ma",
-      name: "ma (vp) we-"
+      word: "ma-",
+      name: "ma- (vp) we-"
    }, 
    {
       id: 2651,
@@ -13261,8 +13261,8 @@ var wordList = [
    }, 
    {
       id: 2652,
-      word: "ma'",
-      name: "ma' (ns4) our (noun capable of using language)"
+      word: "-ma'",
+      name: "-ma' (ns4) our (noun capable of using language)"
    }, 
    {
       id: 2653,
@@ -14002,7 +14002,7 @@ var wordList = [
    {
       id: 2800,
       word: "mey",
-      name: "mey (ns2) plural (general)"
+      name: "-mey (ns2) plural (general)"
    }, 
    {
       id: 2801,
@@ -14027,7 +14027,7 @@ var wordList = [
    {
       id: 2805,
       word: "mo'",
-      name: "mo' (vs9) because"
+      name: "-mo' (vs9) because"
    }, 
    {
       id: 2806,
@@ -14037,7 +14037,7 @@ var wordList = [
    {
       id: 2807,
       word: "mo'",
-      name: "mo' (ns5) due to"
+      name: "-mo' (ns5) due to"
    }, 
    {
       id: 2808,
@@ -14306,8 +14306,8 @@ var wordList = [
    }, 
    {
       id: 2861,
-      word: "mu",
-      name: "mu (vp) he/she/it/they-me"
+      word: "mu-",
+      name: "mu- (vp) he/she/it/they-me"
    }, 
    {
       id: 2862,
@@ -14626,8 +14626,8 @@ var wordList = [
    }, 
    {
       id: 2925,
-      word: "nI",
-      name: "nI (vp) they-you"
+      word: "nI-",
+      name: "nI- (vp) they-you"
    }, 
    {
       id: 2926,
@@ -16316,8 +16316,8 @@ var wordList = [
    }, 
    {
       id: 3263,
-      word: "nu",
-      name: "nu (vp) he/she/it/they-us"
+      word: "nu-",
+      name: "nu- (vp) he/she/it/they-us"
    }, 
    {
       id: 3264,
@@ -16526,8 +16526,8 @@ var wordList = [
    }, 
    {
       id: 3305,
-      word: "pI",
-      name: "pI (vp) we-you"
+      word: "pI-",
+      name: "pI- (vp) we-you"
    }, 
    {
       id: 3306,
@@ -17592,7 +17592,7 @@ var wordList = [
    {
       id: 3518,
       word: "pu'",
-      name: "pu' (vs7) perfective (aspect marker)"
+      name: "-pu' (vs7) perfective (aspect marker) (with verb-)"
    }, 
    {
       id: 3519,
@@ -17602,7 +17602,7 @@ var wordList = [
    {
       id: 3520,
       word: "pu'",
-      name: "pu' (ns2) plural (beings capable of using language)"
+      name: "-pu' (ns2) plural (beings capable of using language) (with noun-)"
    }, 
    {
       id: 3521,
@@ -18016,13 +18016,13 @@ var wordList = [
    }, 
    {
       id: 3603,
-      word: "qa",
-      name: "qa (vp) I-you"
+      word: "qa-",
+      name: "qa- (vp) I-you"
    }, 
    {
       id: 3604,
       word: "qa'",
-      name: "qa' (vs3) do again, resume"
+      name: "-qa' (vs3) do again, resume"
    }, 
    {
       id: 3605,
@@ -19152,7 +19152,7 @@ var wordList = [
    {
       id: 3830,
       word: "qu'",
-      name: "qu' (vsr) emphatic"
+      name: "-qu' (vsr) emphatic (very)"
    }, 
    {
       id: 3831,
@@ -19981,8 +19981,8 @@ var wordList = [
    }, 
    {
       id: 3996,
-      word: "re",
-      name: "re (vp) we-you (pl)"
+      word: "re-",
+      name: "re- (vp) we-you (pl)"
    }, 
    {
       id: 3997,
@@ -22616,8 +22616,8 @@ var wordList = [
    }, 
    {
       id: 4523,
-      word: "tu",
-      name: "tu (vp) you (pl)-me"
+      word: "tu-",
+      name: "tu- (vp) you (pl)-me"
    }, 
    {
       id: 4524,
@@ -22906,8 +22906,8 @@ var wordList = [
    }, 
    {
       id: 4581,
-      word: "vI",
-      name: "vI (vp) I-him/her/it/them"
+      word: "vI-",
+      name: "vI- (vp) I-him/her/it/them"
    }, 
    {
       id: 4582,
@@ -23951,18 +23951,18 @@ var wordList = [
    }, 
    {
       id: 4790,
-      word: "wI",
-      name: "wI (vp) we-him/her/it"
+      word: "wI-",
+      name: "wI- (vp) we-him/her/it"
    }, 
    {
       id: 4791,
-      word: "wI'",
-      name: "wI' (ns4) my (noun capable of using language)"
+      word: "-wI'",
+      name: "-wI' (ns4) my (noun capable of using language)"
    }, 
    {
       id: 4792,
-      word: "wI'",
-      name: "wI' (vs9) one who does, thing which does"
+      word: "-wI'",
+      name: "-wI' (vs9) one who does, thing which does"
    }, 
    {
       id: 4793,
