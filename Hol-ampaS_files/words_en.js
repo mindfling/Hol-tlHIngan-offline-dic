@@ -387,12 +387,12 @@ var wordList = [
    {
       id: 77,
       word: "'a'",
-      name: "'a' (ns1) augmentative"
+      name: "'a' (-suf ns1) augmentative"
    }, 
    {
       id: 78,
       word: "'a'",
-      name: "'a' (vs9) interrogative"
+      name: "'a' (-suf vs9) interrogative"
    }, 
    {
       id: 79,
@@ -912,12 +912,12 @@ var wordList = [
    {
       id: 182,
       word: "'e'",
-      name: "'e' (ns5) topic"
+      name: "-'e' (ns5) topic"
    }, 
    {
       id: 183,
       word: "'e'",
-      name: "'e' (vs5) topic (noun suffix on verb acting as adjective)"
+      name: "-'e' (vs5) topic (noun suffix on verb acting as adjective)"
    }, 
    {
       id: 184,
@@ -2507,12 +2507,12 @@ var wordList = [
    {
       id: 501,
       word: "Daq",
-      name: "Daq (vs5) location (noun suffix on verb acting as adjective)"
+      name: "-Daq (vs5) location (noun suffix on verb acting as adjective)"
    }, 
    {
       id: 502,
       word: "Daq",
-      name: "Daq (ns5) locative (to, in, at, on)"
+      name: "-Daq (ns5) locative (to, in, at, on)"
    }, 
    {
       id: 503,
@@ -8232,7 +8232,7 @@ var wordList = [
    {
       id: 1646,
       word: "bogh",
-      name: "bogh (vs9) which (relative-clause marker)"
+      name: "-bogh (vs9) which (relative-clause marker)"
    }, 
    {
       id: 1647,
@@ -9167,7 +9167,7 @@ var wordList = [
    {
       id: 1833,
       word: "choH",
-      name: "choH (vs3) change"
+      name: "-choH (vs3) change"
    }, 
    {
       id: 1834,
@@ -9422,7 +9422,7 @@ var wordList = [
    {
       id: 1884,
       word: "chugh",
-      name: "chugh (vs9) if"
+      name: "-chugh (vs9) if"
    }, 
    {
       id: 1885,
@@ -12202,7 +12202,7 @@ var wordList = [
    {
       id: 2440,
       word: "law'",
-      name: "law' (vs6) seems, apparently"
+      name: "-law' (vs6) seems, apparently"
    }, 
    {
       id: 2441,
@@ -13807,7 +13807,7 @@ var wordList = [
    {
       id: 2761,
       word: "meH",
-      name: "meH (vs9) for (purpose-clause marker)"
+      name: "-meH (vs9) for (purpose-clause marker)"
    }, 
    {
       id: 2762,
@@ -14002,7 +14002,7 @@ var wordList = [
    {
       id: 2800,
       word: "mey",
-      name: "-mey (ns2) plural (general)"
+      name: "-mey (ns2) plural (general) множественное число неразговаривающие"
    }, 
    {
       id: 2801,
@@ -16762,7 +16762,7 @@ var wordList = [
    {
       id: 3352,
       word: "pa'",
-      name: "pa' (vs9) before"
+      name: "-pa' (vs9) before"
    }, 
    {
       id: 3353,
@@ -20997,7 +20997,7 @@ var wordList = [
    {
       id: 4199,
       word: "taH",
-      name: "taH (vs7) continuous (aspect marker)"
+      name: "-taH (vs7) continuous (aspect marker)"
    }, 
    {
       id: 4200,
@@ -22992,7 +22992,7 @@ var wordList = [
    {
       id: 4598,
       word: "vIS",
-      name: "vIS (vs9) while"
+      name: "-vIS (vs9) while"
    }, 
    {
       id: 4599,
@@ -23182,7 +23182,7 @@ var wordList = [
    {
       id: 4636,
       word: "vaD",
-      name: "vaD (ns5) for"
+      name: "-vaD (ns5) for"
    }, 
    {
       id: 4637,
@@ -25563,5 +25563,10 @@ var wordList = [
       id: 5562,
       word: "qumwI'",
       name: "qumwI' (n.) governor, Duchess in Alice in Wonderland, Герцогиня"
+   },
+   {
+      id: 5565,
+      word: "-taHvIS",
+      name: "-taHvIS (-suf-suf) while some action was contining"
    },
 ];
