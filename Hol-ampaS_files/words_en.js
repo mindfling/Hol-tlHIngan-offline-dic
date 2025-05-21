@@ -387,12 +387,12 @@ var wordList = [
    {
       id: 77,
       word: "'a'",
-      name: "'a' (-suf ns1) augmentative"
+      name: "-'a' (-suf ns1) augmentative"
    }, 
    {
       id: 78,
       word: "'a'",
-      name: "'a' (-suf vs9) interrogative"
+      name: "-'a' (-suf vs9) interrogative"
    }, 
    {
       id: 79,
@@ -1082,7 +1082,7 @@ var wordList = [
    {
       id: 216,
       word: "'egh",
-      name: "'egh (vs1) oneself"
+      name: "-'egh (vs1) oneself, (myself, yourself, ..)"
    }, 
    {
       id: 217,
@@ -3412,7 +3412,7 @@ var wordList = [
    {
       id: 682,
       word: "HI",
-      name: "HI (vp) imp: you (s/pl)-me"
+      name: "HI- (vp) imp: you (s/pl)-me"
    }, 
    {
       id: 683,
@@ -3587,7 +3587,7 @@ var wordList = [
    {
       id: 717,
       word: "Ha'",
-      name: "Ha' (vsr) undo"
+      name: "-Ha' (vsr) undo"
    }, 
    {
       id: 718,
@@ -4087,7 +4087,7 @@ var wordList = [
    {
       id: 817,
       word: "Hey",
-      name: "Hey (ns3) apparent"
+      name: "-Hey (ns3) apparent"
    }, 
    {
       id: 818,
@@ -4322,7 +4322,7 @@ var wordList = [
    {
       id: 864,
       word: "Hom",
-      name: "Hom (ns1) diminutive"
+      name: "-Hom (ns1) diminutive"
    }, 
    {
       id: 865,
@@ -5372,7 +5372,7 @@ var wordList = [
    {
       id: 1074,
       word: "Qo'",
-      name: "Qo' (vsr) don't!, won't"
+      name: "-Qo' (vsr) don't!, won't"
    }, 
    {
       id: 1075,
@@ -7507,7 +7507,7 @@ var wordList = [
    {
       id: 1501,
       word: "ba'",
-      name: "ba' (vs6) obviously"
+      name: "-ba' (vs6) obviously"
    }, 
    {
       id: 1502,
@@ -7862,7 +7862,7 @@ var wordList = [
    {
       id: 1572,
       word: "beH",
-      name: "beH (vs2) ready, set up (referring to devices)"
+      name: "-beH (vs2) ready, set up (referring to devices)"
    }, 
    {
       id: 1573,
@@ -7917,7 +7917,7 @@ var wordList = [
    {
       id: 1583,
       word: "bej",
-      name: "bej (vs6) certainly, undoubtedly"
+      name: "-bej (vs6) certainly, undoubtedly"
    }, 
    {
       id: 1584,
@@ -8817,7 +8817,7 @@ var wordList = [
    {
       id: 1763,
       word: "chaj",
-      name: "chaj (ns4) their"
+      name: "-chaj (ns4) their"
    }, 
    {
       id: 1764,
@@ -9362,7 +9362,7 @@ var wordList = [
    {
       id: 1872,
       word: "chu'",
-      name: "chu' (vs6) clearly, perfectly"
+      name: "-chu' (vs6) clearly, perfectly"
    }, 
    {
       id: 1873,
@@ -9462,7 +9462,7 @@ var wordList = [
    {
       id: 1892,
       word: "chuq",
-      name: "chuq (vs1) one another"
+      name: "-chuq (vs1) one another"
    }, 
    {
       id: 1893,
@@ -9847,7 +9847,7 @@ var wordList = [
    {
       id: 1969,
       word: "ghach",
-      name: "ghach (vs9) nominalizer"
+      name: "-ghach (vs9) nominalizer"
    }, 
    {
       id: 1970,
@@ -10182,7 +10182,7 @@ var wordList = [
    {
       id: 2036,
       word: "gho",
-      name: "gho (vp) imp: you (s/pl)-us"
+      name: "gho- (vp) imp: you (s/pl)-us"
    }, 
    {
       id: 2037,
@@ -10987,7 +10987,7 @@ var wordList = [
    {
       id: 2197,
       word: "jaj",
-      name: "jaj (vs9) may"
+      name: "-jaj (vs9) may"
    }, 
    {
       id: 2198,
@@ -11727,7 +11727,7 @@ var wordList = [
    {
       id: 2345,
       word: "lI'",
-      name: "-lI' (vs7) in progress (aspect marker)"
+      name: "-lI' (vs7) in progress (aspect marker) continue"
    }, 
    {
       id: 2346,
@@ -11737,7 +11737,7 @@ var wordList = [
    {
       id: 2347,
       word: "lI'",
-      name: "lI' (ns4) your (noun capable of using language)"
+      name: "-lI' (ns4) your (noun capable of using language)"
    }, 
    {
       id: 2348,
@@ -11832,7 +11832,7 @@ var wordList = [
    {
       id: 2366,
       word: "lIj",
-      name: "lIj (ns4) your"
+      name: "-lIj (ns4) your"
    }, 
    {
       id: 2367,
@@ -12017,7 +12017,7 @@ var wordList = [
    {
       id: 2403,
       word: "laH",
-      name: "laH (vs5) can, able"
+      name: "-laH (vs5) can, able"
    }, 
    {
       id: 2404,
@@ -13477,7 +13477,7 @@ var wordList = [
    {
       id: 2695,
       word: "maj",
-      name: "maj (ns4) our"
+      name: "-maj (ns4) our"
    }, 
    {
       id: 2696,
@@ -14077,7 +14077,7 @@ var wordList = [
    {
       id: 2815,
       word: "moH",
-      name: "moH (vs4) cause"
+      name: "-moH (vs4) cause"
    }, 
    {
       id: 2816,
@@ -14677,7 +14677,7 @@ var wordList = [
    {
       id: 2935,
       word: "nIS",
-      name: "nIS (vs2) need"
+      name: "-nIS (vs2) need"
    }, 
    {
       id: 2936,
@@ -14872,7 +14872,7 @@ var wordList = [
    {
       id: 2974,
       word: "na'",
-      name: "na' (ns3) definite"
+      name: "-na' (ns3) definite"
    }, 
    {
       id: 2975,
@@ -15282,7 +15282,7 @@ var wordList = [
    {
       id: 3056,
       word: "neS",
-      name: "neS (vs8) honorific"
+      name: "-neS (vs8) honorific"
    }, 
    {
       id: 3057,
@@ -16522,7 +16522,7 @@ var wordList = [
    {
       id: 3304,
       word: "oy",
-      name: "oy (ns1) endearment"
+      name: "-oy (ns1) endearment"
    }, 
    {
       id: 3305,
@@ -17037,7 +17037,7 @@ var wordList = [
    {
       id: 3407,
       word: "parmaq",
-      name: "parmaq (n.) love, romance"
+      name: "parmaq (n.) love, romance ~bang"
    }, 
    {
       id: 3408,
@@ -17047,7 +17047,7 @@ var wordList = [
    {
       id: 3409,
       word: "parmaqqay",
-      name: "parmaqqay (n.) romantic companion, romantic partner"
+      name: "parmaqqay (n.) romantic companion, romantic partner ~bang"
    }, 
    {
       id: 3410,
@@ -17142,7 +17142,7 @@ var wordList = [
    {
       id: 3428,
       word: "pe",
-      name: "pe (vp) imp: you (pl)-"
+      name: "pe- (vp) imp: you (pl)-"
    }, 
    {
       id: 3429,
@@ -18292,7 +18292,7 @@ var wordList = [
    {
       id: 3658,
       word: "qang",
-      name: "qang (vs2) willing"
+      name: "-qang (vs2) willing"
    }, 
    {
       id: 3659,
@@ -19027,7 +19027,7 @@ var wordList = [
    {
       id: 3805,
       word: "qoq",
-      name: "qoq (ns3) so-called"
+      name: "-qoq (ns3) so-called"
    }, 
    {
       id: 3806,
@@ -19687,7 +19687,7 @@ var wordList = [
    {
       id: 3937,
       word: "ra'",
-      name: "ra' (ns4) your (pl) (noun capable of using language)"
+      name: "-ra' (ns4) your (pl) (noun capable of using language)"
    }, 
    {
       id: 3938,
@@ -19822,7 +19822,7 @@ var wordList = [
    {
       id: 3964,
       word: "raj",
-      name: "raj (ns4) your (pl)"
+      name: "-raj (ns4) your (pl)"
    }, 
    {
       id: 3965,
@@ -20627,7 +20627,7 @@ var wordList = [
    {
       id: 4125,
       word: "rup",
-      name: "rup (vs2) ready, prepared (referring to beings)"
+      name: "-rup (vs2) ready, prepared (referring to beings)"
    }, 
    {
       id: 4126,
@@ -20702,7 +20702,7 @@ var wordList = [
    {
       id: 4140,
       word: "tI",
-      name: "tI (vp) imp: you (s/pl)-them"
+      name: "tI- (vp) imp: you (s/pl)-them"
    }, 
    {
       id: 4141,
@@ -20937,7 +20937,7 @@ var wordList = [
    {
       id: 4187,
       word: "ta'",
-      name: "ta' (vs7) accomplished, done (aspect marker)"
+      name: "-ta' (vs7) accomplished, done (aspect marker)"
    }, 
    {
       id: 4188,
@@ -23082,7 +23082,7 @@ var wordList = [
    {
       id: 4616,
       word: "vIp",
-      name: "vIp (vs2) afraid"
+      name: "-vIp (vs2) afraid"
    }, 
    {
       id: 4617,
@@ -23282,7 +23282,7 @@ var wordList = [
    {
       id: 4656,
       word: "vam",
-      name: "vam (ns4) this"
+      name: "-vam (ns4) this"
    }, 
    {
       id: 4657,
@@ -23657,7 +23657,7 @@ var wordList = [
    {
       id: 4731,
       word: "vetlh",
-      name: "vetlh (ns4) that"
+      name: "-vetlh (ns4) that"
    }, 
    {
       id: 4732,
@@ -23687,7 +23687,7 @@ var wordList = [
    {
       id: 4737,
       word: "vo'",
-      name: "vo' (ns5) from"
+      name: "-vo' (ns5) from"
    }, 
    {
       id: 4738,
@@ -24697,7 +24697,7 @@ var wordList = [
    {
       id: 4939,
       word: "yI",
-      name: "yI (vp) imp: you (s/pl)-him/her/it/0"
+      name: "yI- (vp) imp: you (s/pl)-him/her/it/0-"
    }, 
    {
       id: 4940,
