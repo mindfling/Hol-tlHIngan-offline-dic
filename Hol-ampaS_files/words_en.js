@@ -6072,7 +6072,7 @@ var wordList = [
    {
       id: 1214,
       word: "Sa-",
-      name: "Sa- (vp) I-you (pl)"
+      name: "Sa- (vp) I-YOU(pl)"
    }, 
    {
       id: 1215,
@@ -6902,7 +6902,7 @@ var wordList = [
    {
       id: 1380,
       word: "Su-",
-      name: "Su- (vp) you (pl)-"
+      name: "Su- (vp) YOU(pl)-"
    }, 
    {
       id: 1381,
@@ -8117,7 +8117,7 @@ var wordList = [
    {
       id: 1623,
       word: "bo-",
-      name: "bo- (vp) you (pl)-him/her/it/them"
+      name: "bo- (vp) YOU(pl)-him/her/it/them"
    }, 
    {
       id: 1624,
@@ -8962,7 +8962,7 @@ var wordList = [
    {
       id: 1792,
       word: "che-",
-      name: "che- (vp) you (pl)-us"
+      name: "che- (vp) YOU(pl)-us"
    }, 
    {
       id: 1793,
@@ -11717,7 +11717,7 @@ var wordList = [
    {
       id: 2343,
       word: "lI-",
-      name: "lI- (vp) he/she/it/they-you (pl)"
+      name: "lI- (vp) he/she/it/they-YOU(pl)"
    }, 
    {
       id: 2344,
@@ -17142,7 +17142,7 @@ var wordList = [
    {
       id: 3428,
       word: "pe",
-      name: "pe- (vp) imp: you (pl)-"
+      name: "pe- (vp) imp: YOU(pl)-"
    }, 
    {
       id: 3429,
@@ -19982,7 +19982,7 @@ var wordList = [
    {
       id: 3996,
       word: "re-",
-      name: "re- (vp) we-you (pl)"
+      name: "re- (vp) we-YOU(pl)"
    }, 
    {
       id: 3997,
@@ -21702,7 +21702,7 @@ var wordList = [
    {
       id: 4340,
       word: "tlhIH",
-      name: "tlhIH (pronoun) you (pl)"
+      name: "tlhIH (pronoun) YOU (pl)"
    }, 
    {
       id: 4341,
@@ -22617,7 +22617,7 @@ var wordList = [
    {
       id: 4523,
       word: "tu-",
-      name: "tu- (vp) you (pl)-me"
+      name: "tu- (vp) YOU(pl)-me"
    }, 
    {
       id: 4524,
@@ -23962,7 +23962,7 @@ var wordList = [
    {
       id: 4792,
       word: "-wI'",
-      name: "-wI' (vs9) one who does, thing which does"
+      name: "-wI' (vs9) one who does, thing which does ( -er )"
    }, 
    {
       id: 4793,
