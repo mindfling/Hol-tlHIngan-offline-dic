@@ -1,5 +1,12 @@
+// import { wordList } from "./words_en";
+
+let words = {};
+
+console.log('hello new js');
+
 var currentTypeAheadField = null;
 
+/*
 $('#DevwI').on('show.bs.modal',
 function(event) {
     var button = $(event.relatedTarget); // Button that triggered the modal
@@ -11,6 +18,7 @@ function(event) {
     // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
     // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
     var modal = $(this);
+    console.log('modal: ', modal);
     modal.find('.modal-body').html('<center><img src="https://hol.kag.org/images/anim.gif" height="100px"></center>');
 
     var bits = tlhid.split("-");
@@ -36,7 +44,8 @@ function(event) {
     modal.find('.lnshare').attr('data-clipboard-text', sharelink);
     modal.find('.lnshare').data('clipboard-text', sharelink);
 });
-
+*/
+/*
 $('#editWord').click(function(e) {
     var button = $(this);
     var tlhid = button.data('tlhid');
@@ -72,7 +81,8 @@ $('#editWord').click(function(e) {
         }
     });
 });
-
+*/
+/*
 $('#saveWord').click(function(e) {
     var button = $(this);
 
@@ -90,6 +100,7 @@ $('#saveWord').click(function(e) {
 
     //alert("You clicked me! Query = " + queryString);
 });
+*/
 
 function newDevwILookup(word) {
     var modal = $('#DevwI');
@@ -152,74 +163,97 @@ function setTooltip(btn, message) {
 
 $(document).ready(function() {
     //   localStorage.clear();
-    var words = new Bloodhound({
+    words = new Bloodhound({
         local: wordList,
+        // local: wordEn,
         identify: function(obj) {
             return obj.id;
         },
         datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
         queryTokenizer: Bloodhound.tokenizers.whitespace,
-        sorter: function(a, b) {
-            var input_string = currentTypeAheadField.val();
-            input_string = input_string.split(/[ \-]+/);
-            input_string = input_string[0].toLowerCase();
-            var aArray = a.name.toLowerCase().split(/[ \-]+/);
-            var bArray = b.name.toLowerCase().split(/[ \-]+/);
+
+        sorter: function (a, b) {
+            const regExp = /[ \-]+/;
+            // var input_string = currentTypeAheadField.val();
+            // input_string = input_string.split(/[ \-]+/);
+            // input_string = input_string[0].toLowerCase();
+            // let input_string = currentTypeAheadField.val().split(/[ \-]+/)[0].toLowerCase();
+            let input_string = currentTypeAheadField.val().split(regExp)[0].toLowerCase();
+
+            var aArray = a.name.toLowerCase().split(regExp);
+            var bArray = b.name.toLowerCase().split(regExp);
             var apos = 0,
-            bpos = 0;
+                bpos = 0;
+            
+            // str.includes('s')
             for (var i = 0; i < aArray.length; i++) {
-                if (aArray[i].indexOf(input_string) !== -1) {
+                // if (aArray[i].indexOf(input_string) !== -1) {
+                    // apos = i;
+                    // break;
+                // }
+                if (aArray[i].includes(input_string)) {
                     apos = i;
                     break;
                 }
             }
+
             for (i = 0; i < bArray.length; i++) {
                 if (bArray[i].indexOf(input_string) !== -1) {
                     bpos = i;
                     break;
                 }
             }
-            if (apos < bpos) {
-                return - 1;
-            } else if (apos > bpos) {
-                return 1;
-            } else return 0;
+
+            // if (apos < bpos) {
+            //     return - 1;
+            // } else if (apos > bpos) {
+            //     return 1;
+            // } else return 0;
+
+            return (apos < bpos) ? -1 : ((apos > bpos) ? 1 : 0);
         },
-        remote: {
-            url: "https://hol.kag.org/index.php?words=%QUERY&JSON_ONLY=1",
-            wildcard: "%QUERY",
-        }
+
+
+
     });
 
     $('#wordInput').on('focus', function() {
         currentTypeAheadField = $(this);
+        console.log('wordInput on focus currentTypeAheadField: ', currentTypeAheadField);
     })
     
-    $('#wordInput-xs').on('focus', function() {
-        currentTypeAheadField = $(this);
-    })
+    // $('#wordInput-xs').on('focus', function() {
+    //     currentTypeAheadField = $(this);
+    // })
 
     $('#wordInput').typeahead({
-        hint: false,
+        hint: true,
         highlight: true,
         minLength: 1
     },
     {
         name: 'words',
         display: 'name',
-        limit: '20',
+        limit: '10',
         source: words,
     }).on('typeahead:selected',
     function(event, data) {
         $('.typeahead').val(data.word);
+        console.log('data.word: ', data.word, data.name);
 
         currentTypeAheadField = $(this);
         var $typeahead = $(this),
         $form = $typeahead.parents('form').first();
+        console.log('typeahead  form: ', $form);
+        console.log('typeahead this: ', $typeahead);
+        console.log('words', words.local);
 
         $form.submit();
     });
 
+
+
+/*
     $('#wordInput-xs').typeahead({
         hint: true,
         highlight: true,
@@ -240,14 +274,15 @@ $(document).ready(function() {
 
         $form.submit();
     });
+*/
 
-    autosize($('#styled'));
+    // autosize($('#styled'));
 
-    autosize($('#words'));
+    // autosize($('#words'));
 
-    autosize($('#tlh'));
+    // autosize($('#tlh'));
 
-    autosize($('#eng'));
+    // autosize($('#eng')); 
 
     $(".dropdown").on("shown.bs.dropdown",
     function() {
@@ -275,14 +310,14 @@ $(document).ready(function() {
     });
 
     $(window).load(function() {
-        onResize();
+        // onResize();
 
-        $('.foreground').colorpicker({
-            format: 'hex'
-        });
-        $('.background').colorpicker({
-            format: 'hex'
-        });
+        // $('.foreground').colorpicker({
+        //     format: 'hex'
+        // });
+        // $('.background').colorpicker({
+        //     format: 'hex'
+        // });
 
         var get = getUrlVars();
         if (get["o"] != undefined) {
@@ -295,26 +330,26 @@ $(document).ready(function() {
         placement: 'bottom'
     });
 
-    var clipboard = new Clipboard('.lnshare', {
-        container: document.getElementById('DevwI')
-    });
+    // var clipboard = new Clipboard('.lnshare', {
+    //     container: document.getElementById('DevwI')
+    // });
 
-    clipboard.on('success',
-    function(e) {
-        setTooltip(e.trigger, 'Copied!');
-        console.info('Action:', e.action);
-        console.info('Text:', e.text);
-        console.info('Trigger:', e.trigger);
+    // clipboard.on('success',
+    // function(e) {
+    //     setTooltip(e.trigger, 'Copied!');
+    //     console.info('Action:', e.action);
+    //     console.info('Text:', e.text);
+    //     console.info('Trigger:', e.trigger);
 
-        e.clearSelection();
-    });
+    //     e.clearSelection();
+    // });
 
-    clipboard.on('error',
-    function(e) {
-        setTooltip(e.trigger, 'Failed!');
-        console.error('Action:', e.action);
-        console.error('Trigger:', e.trigger);
-    });
+    // clipboard.on('error',
+    // function(e) {
+    //     setTooltip(e.trigger, 'Failed!');
+    //     console.error('Action:', e.action);
+    //     console.error('Trigger:', e.trigger);
+    // });
 
     $('body').on('click', '.change-style-menu-item',
     function() {
